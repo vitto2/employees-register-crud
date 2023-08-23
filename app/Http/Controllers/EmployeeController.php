@@ -29,7 +29,7 @@ class EmployeeController extends Controller
      */
     public function show(string $id)
     {
-        //
+        return Employee::findOrFail($id);
     }
 
     /**
