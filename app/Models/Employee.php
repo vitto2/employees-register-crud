@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Employee extends Model
 {
     use HasFactory;
-
+    protected $fillable = ['name','email','cpf','admission_date'];
 }
