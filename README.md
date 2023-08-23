@@ -1,34 +1,35 @@
-CRUD de Funcionários com Laravel
+# CRUD de Funcionários com Laravel
 
 Bem-vindo ao projeto de um CRUD (Create, Read, Update, Delete) de Funcionários desenvolvido com o framework Laravel. Este projeto permite a criação, leitura, atualização e exclusão de registros de funcionários, com informações como nome, e-mail, CPF e data de contratação.
-Recursos
 
-    Cadastro de funcionários com campos: nome, e-mail, CPF e data de contratação.
-    Listagem de todos os funcionários registrados.
-    Atualização de informações de funcionários existentes.
-    Exclusão de registros de funcionários.
+## Recursos
 
-Requisitos
+- Cadastro de funcionários com campos: nome, e-mail, CPF e data de contratação.
+- Listagem de todos os funcionários registrados.
+- Atualização de informações de funcionários existentes.
+- Exclusão de registros de funcionários.
 
-    PHP (>= versão 7.4)
-    Composer
-    Banco de dados MySQL (ou outro compatível com Laravel)
+## Requisitos
 
-Instalação
+- PHP (>= versão 7.4)
+- Composer
+- Banco de dados MySQL (ou outro compatível com Laravel)
 
-    Clone este repositório para o seu ambiente local:
+## Instalação
 
+1. Clone este repositório para o seu ambiente local:
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
-
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
 Navegue até o diretório do projeto:
 
-
+bash
 
 cd nome-do-projeto
 
 Instale as dependências do Composer:
 
+bash
 
 composer install
 
@@ -36,23 +37,29 @@ Crie um arquivo .env a partir do arquivo .env.example e configure a conexão do 
 
 Gere a chave de aplicação:
 
+bash
 
 php artisan key:generate
 
 Execute as migrações do banco de dados para criar as tabelas necessárias:
 
-
+bash
 
 php artisan migrate
 
 Inicie o servidor de desenvolvimento:
 
-
+bash
 
     php artisan serve
 
     O aplicativo estará disponível em http://localhost:8000.
 
+Uso
+
+    Acesse a aplicação em seu navegador.
+
+    Cadastre novos funcionários, visualize a lista de funcionários e gerencie as informações.
 
 Contribuição
 
